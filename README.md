@@ -127,6 +127,9 @@ A fonte original utilizada no projeto é uma planilha contendo os códigos e inf
 
 Esta planilha foi obtida através do site do Ministério da Previdência Social. Para acessar a página basta clicar [aqui](https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/saude-e-seguranca-do-trabalhador/acidente_trabalho_incapacidade/tabelas-cid-10)
 
+![site cid](./imagens/site_cid.png)
+
+![site cid](./imagens/planilha_cid.png)
 
 ## 3.3 IBGE
 
@@ -138,6 +141,9 @@ A utilização dessa base é necessária porque os registros do SIM possuem cód
 
 A planilha utilizada foi extraída do próprio site do IBGE, e pode ser acessada clicando [aqui](https://www.ibge.gov.br/explica/codigos-dos-municipios.php)
 
+![site ibge](./imagens/site_ibge.png)
+
+![planilha ibge](./imagens/planilha_ibge.png)
 
 ---
 
@@ -222,6 +228,12 @@ Respostas das perguntas
 A ingestão dos arquivos nos volumes foi realizada manualmente por meio do recurso **Data Ingestion** do Databricks.
 
 A separação em camadas permite diferenciar os dados conforme seu nível de tratamento e finalidade, facilitando a organização, rastreabilidade e manutenção do projeto.
+
+![ingestão imagens](./imagens/ingestao_imagens.png)
+
+![ingestão planilhas](./imagens/ingestao_planilhas.png)
+
+![ingestão arquivos csv camada raw](./imagens/ingestao_raw.png)
 
 ---
 
