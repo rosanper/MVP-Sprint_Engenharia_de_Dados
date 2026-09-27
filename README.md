@@ -381,7 +381,7 @@ A coluna `FAIXA_ETARIA`, será criada utilizando as seguintes categorias:
 
 ### Imagens
 
-![imagem camada silver](./imagens/bronze.png)
+![imagem camada silver](./imagens/silver.png)
 
 ![imagem tabela cid camada silver](./imagens/cid_silver.png)
 
