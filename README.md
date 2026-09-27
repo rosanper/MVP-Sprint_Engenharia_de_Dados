@@ -474,6 +474,8 @@ As principais causas básicas de óbito identificadas foram:
 
 O resultado chama atenção para dois pontos: **B34** aparece como a causa mais frequente, concentrada principalmente em 2020 e 2021 (ver seção 7.4), o que pode seer reflexo da pandemia. Já **X95** (agressão por arma de fogo), em segundo lugar, evidencia o peso das causas externas violentas na mortalidade da cidade. destaque ainda para um elevado valor de óbitos por causas naturais como infarto (I21) e diabetes (E14).
 
+![print da consulta](./imagens/ex_pergunta_02.png)
+
 ## 7.2 Diferenças por faixa etária e sexo
 
 **Por sexo:**
@@ -518,6 +520,8 @@ Essa proporção é relevante quando comparada à participação populacional de
 | 2025 | 19.135 | 86.796 |
 
 Ambas as séries apresentam o mesmo padrão: um pico em **2021**, seguido de queda e estabilização a partir de 2022 em patamares inferiores aos de 2020-2021. Esse comportamento é consistente com o efeito da pandemia de COVID-19 sobre a mortalidade geral.
+
+![print da consulta](./imagens/ex_pergunta_01.png)
 
 **Evolução das principais causas em Salvador**, a tabela abaixo evidencia esse padrão de forma ainda mais clara:
 
