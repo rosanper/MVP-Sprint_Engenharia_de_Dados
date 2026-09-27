@@ -243,7 +243,7 @@ Essa etapa é importante porque estabelece a estrutura lógica e física do ambi
 
 A organização em schemas permite separar os dados de acordo com seu estágio de processamento, enquanto os volumes permitem armazenar os arquivos utilizados no projeto. Essa preparação também facilita a manutenção do ambiente, pois cada etapa possui um local definido e pode ser identificada de acordo com sua finalidade.
 
-![imagem do catalog](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/catalog.png)
+![imagem do catalog](./imagens/catalog.png)
 
 ---
 
@@ -283,13 +283,13 @@ A camada Bronze representa uma etapa em que os dados ainda mantêm, de maneira g
 
 ### Imagens
 
-![imagem camada bronze](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/bronze.png)
+![imagem camada bronze](./imagens/bronze.png)
 
-![imagem tabela cid camada bronze](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/cid_bronze.png)
+![imagem tabela cid camada bronze](./imagens/cid_bronze.png)
 
-![imagem tabela ibge camada bronze](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/ibge_bronze.png)
+![imagem tabela ibge camada bronze](./imagens/ibge_bronze.png)
 
-![imagem tabela sim camada bronze](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/sim_bronze.png)
+![imagem tabela sim camada bronze](./imagens/sim_bronze.png)
 
 ---
 
@@ -369,17 +369,17 @@ A coluna `FAIXA_ETARIA`, será criada utilizando as seguintes categorias:
 
 ### Imagens
 
-![imagem camada silver](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/bronze.png)
+![imagem camada silver](./imagens/bronze.png)
 
-![imagem tabela cid camada silver](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/cid_silver.png)
+![imagem tabela cid camada silver](./imagens/cid_silver.png)
 
-![imagem tabela categorias do cid camada silver](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/categoria_cid_silver.png)
+![imagem tabela categorias do cid camada silver](./imagens/cap_cid_silver.png)
 
-![imagem tabela municipio camada silver](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/municipio_silver.png)
+![imagem tabela municipio camada silver](./imagens/municipio_silver.png)
 
-![imagem tabela municipio camada silver](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/estado_silver.png)
+![imagem tabela municipio camada silver](./imagens/estado_silver.png)
 
-![imagem tabela sim camada silver](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/sim_silver.png)
+![imagem tabela sim camada silver](./imagens/sim_silver.png)
 
 ---
 
@@ -420,13 +420,13 @@ A tabela `fato_obitos` é construída a partir da `silver.sim`, relacionando cad
 
 ### Imagens
 
-![imagem camada gold](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/gold.png)
+![imagem camada gold](./imagens/gold.png)
 
-![imagem tabela fato obitos camada gold](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/fato_obito_gold.png)
+![imagem tabela fato obitos camada gold](./imagens/fato_obito_gold.png)
 
-![imagem tabela dimensão localidade camada gold](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/dim_localidade_gold.png)
+![imagem tabela dimensão localidade camada gold](./imagens/dim_localidade_gold.png)
 
-![imagem tabela dimensão causa camada gold](/Volumes/mvp_engenharia_dados/raw/mvp_imgs/dim_causa_gold.png)
+![imagem tabela dimensão causa camada gold](./imagens/dim_causa_gold.png)
 
 
 
@@ -540,7 +540,7 @@ Em relação aos objetivos propostos, as quatro perguntas definidas no início d
 
 De forma geral, a atividade permitiu aplicar conceitos estudados de forma prática, além de desenvolver habilidades com ferramentas que podem ser utilizadas em projetos reais de engenharia e análise de dados. O trabalho mostrou a importância de combinar conhecimento técnico, análise crítica dos dados e capacidade de adaptação para transformar diferentes fontes de informação em uma estrutura organizada e útil para responder problemas concretos.
 
-# Melhorias futuras
+# 9. Melhorias futuras
 
 Como trabalhos futuros, destacam-se: 
 * Substituir a base de CID atual por uma tabela de referência oficial do CID-10 (como a disponibilizada pelo próprio DATASUS), de forma a cobrir também as causas externas de óbito; 
